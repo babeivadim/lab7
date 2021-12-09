@@ -1,0 +1,13 @@
+package com.company;
+
+public class Ex12Test {
+  public static void main(String[] args){
+    Ex12 test = new Ex12(12,10,29,9,21,2000);
+    do{
+      test.nextDay();
+      System.out.println(test.toString());
+    }
+    while (test.getYear() !=2021);
+
+  }
+}
